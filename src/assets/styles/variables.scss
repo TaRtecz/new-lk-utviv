@@ -1,0 +1,37 @@
+// Цвета
+$primary: #1976D2;
+$primary-light: lighten($primary, 10%);
+$primary-dark: darken($primary, 10%);
+$accent: #FF9800;
+$accent-light: lighten($accent, 10%);
+$accent-dark: darken($accent, 10%);
+$background: #f5f5f5;
+$text-primary: #2c3e50;
+$text-secondary: #666;
+$border-color: #e0e0e0;
+
+// Размеры
+$header-height: 64px;
+$sidebar-width: 240px;
+$border-radius: 8px;
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+$spacing-xl: 32px;
+
+// Тени
+$shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.1);
+$shadow-md: 0 4px 6px rgba(0, 0, 0, 0.1);
+$shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+
+// Анимации
+$transition-fast: 0.2s ease;
+$transition-normal: 0.3s ease;
+$transition-slow: 0.4s ease;
+
+// Брейкпоинты
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px; 
